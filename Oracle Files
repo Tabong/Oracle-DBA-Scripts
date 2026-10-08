@@ -1,6 +1,6 @@
 -- Top.sql: prints details of active sessions 
 -- Usage: @top, run a few times on to see dynamics of active sessions
--- Luca Canali 2002, last updated and customized for 11g, Apr 2012
+-- This code is copied from: Luca Canali 2002, last updated and customized for 11g, Apr 2012
 
 set lines 180
 col inst_sid_ser for a13
