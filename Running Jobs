@@ -1,0 +1,7 @@
+col elapsed_time for a20
+col cpu_used for a20
+col inst_sid for a7
+
+select running_instance||'_'||session_id inst_sid,owner,job_name,elapsed_time,cpu_used from dba_SCHEDULER_RUNNING_JOBS;
+
+--This will show you jobs that are currently running
